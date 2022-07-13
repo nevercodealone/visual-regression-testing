@@ -1,0 +1,6 @@
+drivers
+vendor
+composer.lock
+buid/failure/*
+
+.phpunit.result.cache

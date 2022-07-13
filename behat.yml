@@ -1,0 +1,17 @@
+# included as an example
+
+default:
+  suites:
+    default:
+      paths:
+        - '%paths.base%/features/'
+      contexts:
+        - Behat\MinkExtension\Context\MinkContext
+        - App\BehatContext
+  extensions:
+    Behat\MinkExtension:
+      base_url: 'https://www.delos.biz'
+      sessions:
+        default:
+          panther: ~
+    Robertfausk\Behat\PantherExtension: ~

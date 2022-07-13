@@ -1,0 +1,22 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require-dev": {
+        "robertfausk/behat-panther-extension": "^1.0",
+        "behat/behat": "^3.10",
+        "phpunit/phpunit": "^9.0",
+        "dbrekelmans/bdi": "^1.0",
+        "reptily/php-image-diff": "^1.0"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "scripts": {
+        "behat": "php vendor/bin/behat"
+    }
+}
